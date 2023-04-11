@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Neljä_karhua_ja_kissa
+class Nelja_karhua_ja_kissa
 
 {
     static void Main(string[] args)
