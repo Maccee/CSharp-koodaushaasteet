@@ -7,7 +7,12 @@ class Vartiotorni
         int y = VainNumero("Anna y-arvo: ");
 
 
-        string suunta = "!";
+        string suunta = "";
+
+        if (y == 0 && x == 0)
+        {
+            suunta = "!";
+        }
 
         if (y > 0)
         {
