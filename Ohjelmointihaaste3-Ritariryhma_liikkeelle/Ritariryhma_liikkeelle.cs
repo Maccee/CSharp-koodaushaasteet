@@ -39,7 +39,7 @@ class Ritariryhma_liikkeelle
         while (true)
         {
             Console.Write(prompt);
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
             if (int.TryParse(input, out int value) && value >= 1 && value <= 8)
             {
                 return value;

@@ -10,7 +10,7 @@ class Nelja_karhua_ja_kissa
         while (true)
         {
             Console.Write("Kuinka monta kalaa karhut ovat kalastaneet? ");
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
 
             if (int.TryParse(input, out saalis))
             {

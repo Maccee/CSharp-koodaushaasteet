@@ -18,7 +18,7 @@ class Valtakuntien_herruus
         while (true)
         {
             Console.Write(prompt);
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
             if (int.TryParse(input, out int value) && value >= 0)
             {
                 return value;
