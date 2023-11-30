@@ -1,2 +1,5 @@
-# kouluhaasteet
-.NET23KA -Kouluhaasteet
+## C# -koodaushaasteet
+
+.NET23KA
+
+Läjä consoliappeja.
